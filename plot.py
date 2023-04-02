@@ -73,4 +73,4 @@ dialog = [
 
 "You: We're doing everything we can to find out who did this. Thank you for your time, Mrs. Jones. This information is helpful.",
 
-"Mrs Jones: If you need anything else to help with the investigation, just give me a holler. I can't help but feel like the person who did this is still out there somewhere."]
+"Mrs Jones: If you need anything else to help with the investigation, just give me a holler. I can't help but feel like the person who did this is still out there somewhere.(Click the Dialog 12 again and start the new sequence.)"]
