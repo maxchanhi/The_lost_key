@@ -1,7 +1,6 @@
 pip
 numpy
 tensorflow
-punkt
 nltk
 keras
 pickle5
