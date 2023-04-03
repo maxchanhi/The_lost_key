@@ -6,7 +6,9 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from keras import layers
-
+nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('all-corpora')
 import json
 try:
     with open('confess.json') as file:
