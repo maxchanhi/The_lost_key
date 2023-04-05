@@ -6,7 +6,7 @@
     },
     {"tag": "meet",
      "patterns": ["When did you last meet Emily/your wife/your ex-wife/her last?", " Did you meet Emily/your wife/your ex-wife/her recently?"],
-     "responses": ["We haven't met for a long time."," It's hard to recall; it's been a while.", "I can't remember, certainly not recently."]
+     "responses": ["We haven't met for a long time."," It's hard to recall; it's been a while. She might met her love one. But not me", "I can't remember, certainly not recently. She might met her love one. Of course, not me."]
     },
     {"tag": "Job",
      "patterns": ["What do you do for life?"," What is your job/occupation?"," Are you a producer?"],
@@ -14,7 +14,7 @@
     },
     {"tag": "Love",
      "patterns": ["What is your relationship with your wife/ex-wife/Emily?"," Do you still love her?" ],
-     "responses": ["We had a good time before, but that was long gone. ","There is no love in marriage. Like the novella in Tostoy’s Kreutzer Sonata."]
+     "responses": ["We had a good time before, but that was long gone. She loved someone else.","There is no love in marriage. Like the novella in Tostoy’s Kreutzer Sonata."]
     },
     {"tag": "music",
      "patterns": ["Do you know anything about music?"," Do you like music?"," What is the importance of music in your life?" ],
@@ -25,7 +25,7 @@
      "responses": ["(silence)"]
     },
     {"tag": "weapon",
-     "patterns": ["What do you know about knifes/daggers?"," You kill with a dagger/knife."],
+     "patterns": ["What do you know about knifes/daggers?"," You kill Emily with a dagger/knife."],
      "responses": ["He remains silent, but you notice he is a bit nervous. (Meanwhile, you received intel from your colleague that Sebastian is a dagger collector.)"],
      "context_set": "win"
     },
@@ -35,7 +35,7 @@
      "context_set": "win"
     },
     {"tag": "endgame",
-     "patterns": ["Because of the affair, you killed your wife with a dagger."],
+     "patterns": ["Because of the affair, you killed your ex wife / Emily with a dagger."],
      "responses": ["Yes. I confess. (You win the game)"],
      "context_filter": "win"
     }
